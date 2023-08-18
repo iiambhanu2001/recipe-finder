@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.bg{
+    position: relative;
+    background: linear-gradient(rgba(8,8,8,0.3),rgba(8,8,8,0.3)),url('https://t4.ftcdn.net/jpg/05/88/24/01/360_F_588240153_fJGL9Oj0QU9uxlGK9QSDzgfwZ31SaZ0r.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-content{
+    text-align: center; 
+    position: absolute;
+    top: 40%;
+    left: 30%;
+ 
+
+}
+.header-title{
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.search-box{
+
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+}
+.search-heading{
+    font-size: 30px;
+    margin-bottom: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.detailsPageContent {
+    padding-top: 100px !important
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
